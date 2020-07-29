@@ -9,9 +9,9 @@
 			chromosome	marker_start	marker_end	Hap_start	Hap_end	Haplotype1	Haplotype 2
 			chr1	23425332	23425432	23425332	23425385 1111000	000000
 			
-	Test: chr22_sorted_sam_file,chr22_cluster_file(waston/crick?)
-	Process: 1. store the start and end coordinates of each cluster
-			 2. classify each read to each cluster (may be a read fall into two cluster)
+	Test: chr22_sorted_sam_file,chr22_cluster_file	Process: 
+	                 1. store the start and end coordinates of each cluster
+			 2. classify each read to each cluster
 			 3. ouput the mehtylation states of reads fall in the clusters
 	#First_version: 2019/1/30
 	#Modified_version:
