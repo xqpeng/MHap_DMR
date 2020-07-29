@@ -14,6 +14,8 @@ Step1: Running Generate_candidate_regions.pl to generate candidate regions.
      Command: perl Generate_candidate_regions.pl genome.fa cpgIsland.txt
      
      Note: genome.fa can be download from USCS, and cpgIsland information also can be extracted from UCSC.
+     
+     The format of cpgIsland.txt can be this: id chromosome start end. For example: 585	chr1	10468	11240	
                
 Step2: Running Haplotype_CpG_Cluster.pl to construct methylation haplotypes for a sample on candidate regions
      
